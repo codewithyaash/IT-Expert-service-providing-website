@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+nav {
+    background-color: white;
+    color: #fff;
+    padding: 10px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.nav-branding {
+    margin-left: 20px;
+}
+
+.nav-branding h1 {
+    color: black;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+form {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form .continue-btn {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form .continue-btn:hover {
+    background-color: #0056b3;
+}
+
+form a {
+    display: block;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-branding">
+                <h1>IT Expert</h1>
+            </div>
+        </div>
+    </nav>
+    <br><br>
+    <form action="upwork_login.php" method="post">
+        <h2>Log in to IT Expert</h2>
+        <input type="text" name="username" placeholder=" Email" required>
+        <br><br>
+        <input type="text" name="username" placeholder="password" required>
+        <br><br><br>
+        <button type="button" name="continue_email" class="continue-btn">Continue with Email</button><br><br>
+        <button type="button" name="continue_google" class="continue-btn">Continue with Google</button><br><br>
+        <button type="button" name="continue_apple" class="continue-btn">Continue with Apple</button>
+        <br><br>
+        <a href="frcl.html">Don't have an IT Expert account? Sign Up</a>
+    </form>
+    
+</body>
+</html>

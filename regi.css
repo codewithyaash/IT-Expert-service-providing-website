@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0px;
+  }
+  
+  .container {
+    width: 10%;
+    max-width: 100px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .navbar {
+    background-color: #fff;
+    color: #fff;
+    padding: px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+  }
+  
+  .navbar-left {
+    flex-grow: 5;
+  }
+  
+  .navbar-brand {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    padding-left: 20px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .navbar-button {
+    background-color: gray;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .navbar-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .login-form {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .form-group.checkbox label {
+    display: inline;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .form-group button:hover {
+    background-color: #0056b3;
+  }
+  

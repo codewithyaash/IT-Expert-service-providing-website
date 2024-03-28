@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+.rf{
+    background-color: rgba(255, 255, 255, 0.475);
+    padding-bottom: 275px;
+    padding-top: 275px;
+    padding-right: 250px;
+    padding-left: 250px;
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 100;
+    border-radius: 50px;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.475);
+    border-radius: 30px;
+    position: absolute;
+    z-index: 100;
+    border-radius: 50px;
+    width: 100%;
+    margin-top: 0.5%;
+    }
+input{
+    border-radius: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+video{
+    width: 100%;
+    position: absolute;
+}

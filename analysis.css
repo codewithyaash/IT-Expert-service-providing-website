@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #fff;
+    color: #333;
+    padding: 20px 20px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 60px;
+  }
+  nav ul li a {
+    text-decoration: none;
+  }

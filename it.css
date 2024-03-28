@@ -1,0 +1,124 @@
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+ 
+    }
+.image1 {
+    padding: 20px 20px;
+}
+
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.image3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+    padding: 50px 50px;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  header {
+    background-color: #fff;
+    color: #333;
+    padding: 20px 20px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 60px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  section {
+    padding: 100px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .service-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.service-box {
+  width: 50%; /* Adjust the width of each box */
+  background-color: gray;
+  border: 1px solid #ddd;
+  padding: 100px;
+  margin-bottom: 20px;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  font-family: "Times New Roman", Times, serif;
+}
+
+.service-box h3 {
+  margin-top: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.service-box p {
+  margin-bottom: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+.service-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .service-box {
+    width: 18%; /* Adjust the width of each box */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 100px;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .service-box h3 {
+    margin-top: 0;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .service-box p {
+    margin-bottom: 0;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
